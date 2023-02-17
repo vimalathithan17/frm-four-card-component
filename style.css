@@ -25,50 +25,100 @@ font-family: 'Poppins', sans-serif;
 }
 
 body {
-  background-color: var(--Grayish-Blue);
+  background-color: var(--Very-Light-Gray-Blue);
   color: var(--Very-Dark-Blue);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
   margin: 0%;
+}
+
+section {
+  padding: 1rem;
+}
+
+h1,
+h2,
+p {
+  margin: .5rem auto 0 auto;
+
 }
 
 .flex {
   width: 90%;
   display: flex;
+  margin: auto;
   flex-flow: column nowrap;
+}
+
+.title {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title>* {
+  width: 100%;
+  text-align: center;
+}
+
+.title_head_1 {
+  font-weight: 200;
+}
+
+.title_head_1,
+.title_head_2 {
+  font-size: 25px;
+}
+
+.title_head_2,
+.content_head {
+  font-weight: 600;
+}
+
+.title_para,
+.content_para {
+  color: var(--Grayish-Blue);
+  font-weight: 400;
+  line-height: 2.7rem;
+}
+
+.title_para {
+  margin-top: 1rem;
+  font-size: 16px;
+
 }
 
 .container {
   margin: 0 auto;
   width: 100%;
-  padding: 1rem;
 }
 
 .content {
-  margin: auto;
+  border-top: 3px;
+  border-top-style: solid;
+  margin: 1rem auto;
   padding: 1.5rem;
+  border-radius: 0.5rem;
   background-color: var(--Very-Light-Gray);
+  box-shadow: -1px 1px 1px 1px var(--);
 }
 
 .supervisor {
-  border-top: 2px;
-  border-top-style: solid;
   border-color: var(--Cyan);
 }
 
 .builder {
-  border-top: 2px;
-  border-top-style: solid;
   border-color: var(--Red);
 }
 
 .karma {
-  border-top: 2px;
-  border-top-style: solid;
   border-color: var(--Orange);
 }
 
 .calculator {
-  border-top: 2px;
-  border-top-style: solid;
   border-color: var(--Blue);
 }
 
