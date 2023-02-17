@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+/*
+font-family: 'Poppins', sans-serif;
+*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+  /*Primary*/
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  /*
+ Neutral
+*/
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+  background-color: var(--Grayish-Blue);
+  color: var(--Very-Dark-Blue);
+  margin: 0%;
+}
+
+.flex {
+  width: 90%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem;
+}
+
+.content {
+  margin: auto;
+  padding: 1.5rem;
+  background-color: var(--Very-Light-Gray);
+}
+
+.supervisor {
+  border-top: 2px;
+  border-top-style: solid;
+  border-color: var(--Cyan);
+}
+
+.builder {
+  border-top: 2px;
+  border-top-style: solid;
+  border-color: var(--Red);
+}
+
+.karma {
+  border-top: 2px;
+  border-top-style: solid;
+  border-color: var(--Orange);
+}
+
+.calculator {
+  border-top: 2px;
+  border-top-style: solid;
+  border-color: var(--Blue);
+}
+
+.content_para {
+  color: var(--Grayish-Blue);
+}
+
+.image_area {
+  position: relative;
+}
+
+.content__image {
+  position: relative;
+}
