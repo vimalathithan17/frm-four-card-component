@@ -35,7 +35,13 @@ body {
 section {
   padding: 1rem;
 }
-
+.top{
+  padding-top:7rem ;
+}
+.bottom
+{
+  margin-bottom: 5rem;
+}
 h1,
 h2,
 p {
@@ -88,7 +94,7 @@ p {
 .title_para {
   margin-top: 1rem;
   font-size: 16px;
-
+  margin-bottom: 2.5rem;
 }
 
 .container {
@@ -97,13 +103,13 @@ p {
 }
 
 .content {
-  border-top: 3px;
+  border-top: 3.5px;
   border-top-style: solid;
-  margin: 1rem auto;
-  padding: 1.5rem;
+  margin: 2.3rem auto 0 auto;
+  padding: 1.5rem 2.5rem;
   border-radius: 0.5rem;
   background-color: var(--Very-Light-Gray);
-  box-shadow: -1px 1px 1px 1px var(--);
+  box-shadow: 0rem .5rem 3rem -10px var(--Grayish-Blue);
 }
 
 .supervisor {
@@ -124,12 +130,12 @@ p {
 
 .content_para {
   color: var(--Grayish-Blue);
+  font-size: small;
 }
 
 .image_area {
-  position: relative;
-}
-
-.content__image {
-  position: relative;
+  padding: 1.3rem 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
